@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BioData</title>
+  </head>
+  <body>
+
+<form >
+  <label for="username">User Name:</label>
+  <input type="text" id="user" name="user" value="" placeholder="Enter a username"/>
+  <label for="fathername">Father Name:</label>
+  <input type="text" name="father" id="father" value="" placeholder="Enter a fathername"/>
+  <label for="mothername">Mother Name:</label>
+  <input type="text" name="mother" id="mother" value="" placeholder="Enter a mothername"/>
+
+
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" value="" placeholder="Enter a age"/>
+  
+
+  <input type="button" value="click" onclick="details()"/>
+</form>
+<table border="2px">
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Father Name</th>
+      <th>Mother Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody id="tbody">
+
+  </tbody>
+</table>
+    <script src="./app.js"></script>
+  </body>
+</html>
